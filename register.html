@@ -3,32 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ShopSphere | Register</title>
+  <title>Register | BookReviewHub</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>📚 BookReviewHub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="books.html" class="active">Books</a>
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
+    </nav>
+  </header>
 
-<header>
-  <div class="logo">ShopSphere</div>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="shop.html">Shop</a>
-    <a href="login.html">Login</a>
-    <a href="register.html" class="active">Register</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+  <div class="form-container">
+    <h2>Create an Account</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Register</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login here</a>.</p>
+  </div>
 
-<section class="form-section">
-  <form class="auth-form">
-    <h2>Create Account</h2>
-    <input type="text" placeholder="Full Name" required>
-    <input type="email" placeholder="Email" required>
-    <input type="password" placeholder="Password" required>
-    <button type="submit">Register</button>
-    <p>Already have an account? <a href="login.html">Login</a></p>
-  </form>
-</section>
-
+  <footer>
+    <p>© 2025 BookReviewHub</p>
+  </footer>
 </body>
 </html>
